@@ -1,0 +1,25 @@
+body  {
+
+    background-color: rgb(17, 15, 15); }
+    h1,h2{
+        color: white; font-style: ;
+
+    }
+    .first {
+        color: aqua; font-size: larger;
+    }
+    .second {
+        color: blue;
+    }
+    .third {
+        color: brown;
+    }
+    .forth {
+        color: aquamarine;
+    }
+    .fifth {
+        color: rgb(114, 86, 44);
+    }
+    .six {
+        color: green; font-style: normal;
+    }

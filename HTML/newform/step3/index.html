@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+</head>
+
+<body>
+    <center>
+        <table width="1000" cellpading="100" cellspacing="10">
+            <tr>
+                <br />
+                <br />
+                <br />
+
+                <th bgcolor="green">
+                    <h2>Step 1: Accounts</h2>
+                </th>
+                <th bgcolor="green">
+                    <h2>Step 2:Personal Information</h2>
+                </th>
+                <th bgcolor="blue">
+                    <h2>Step 3:Your Review</h2>
+                </th>
+            </tr>
+        </table>
+    </center>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>Your Review</h2>
+            </legend>
+            <label>How did you hear about us?
+                <select name="aboutus" size="1">
+                    <option value="">Select your opinon</option>
+                    <option value="friend">Friend</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="socialnetworks">Social networks</option>
+                    <option value="pumflait">Pumflait</option>
+                    <option value="Center">Center</option>
+
+                </select>
+            </label>
+            <br />
+            <br />
+            <p>Would you visit again?<br />
+                <input required type="radio" name="opinon" value="yes" checked />Yes
+                <input required type="radio" name="opinon" value="no" />No
+                <input required type="radio" name="opinon" value="maybe" />Maybe
+            </p>
+            <br />
+            <br />
+            <label>Comments:<br />
+                <textarea name="comments" cols="50" rows="5">
+            </textarea></label>
+            <br />
+            <br />
+            <label>Documents:<br />
+                <input type="file" name="file" required /></label>
+            <br />
+            <br />
+            <label>
+                <input type="checkbox" name="checkbox" checked required />Sign me up for email updates</label>
+
+
+            </label>
+            <br />
+            <br />
+            <table cellpading="" cellspacing="20">
+                <tr>
+                    <th> <a href="../step2/index.html"><img src="b.png" width="50" /></a></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+
+                    <th><input type="image" src="sub.png" width="100" value="submite" /></th>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
